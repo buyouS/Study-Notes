@@ -24,7 +24,7 @@
     (< (abs (- (square guess) x)) 0.001))
 
 
-(display (sqrt 2))
-(newline)
-(display (sqrt 9))
-(exit)
+; (display (sqrt 2))
+; (newline)
+; (display (sqrt 9))
+; (exit)

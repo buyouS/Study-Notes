@@ -29,5 +29,5 @@ function sqrt(x) {
     return sqrt_iter(x, 1.0)
 }
 
-console.log(sqrt(9))
-console.log(sqrt(2))
+// console.log(sqrt(9))
+// console.log(sqrt(2))
