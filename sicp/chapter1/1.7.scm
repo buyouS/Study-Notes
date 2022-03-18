@@ -18,7 +18,7 @@
 
 (define (sqrt-iter x guess)
     (if (good-enough? guess (improve guess x))
-        guess
+        (improve guess x)
         (sqrt-iter x (improve guess x))))
 
 (define (sqrt x)

@@ -6,7 +6,7 @@
     return x > 0 ? x : -x;
 }
 
-function averge(x, y) {
+function average(x, y) {
     return (x + y) / 2;
 }
 
@@ -33,3 +33,19 @@ function sqrt_iter(x, guess) {
 // console.log(sqrt(2))
 
 module.exports = {square,abs,averge,is_good_enough,improve,sqrt}
+
+
+function sqrt_by_block(x) {
+    function is_good_enough(guess) {
+        return abs(square(guess) - x) < 0.001;
+    }
+    function improve(guess) {
+        return average(guess, x / guess);
+    }
+    function sqrt_iter(guess) {
+        return is_good_enough(guess)
+               ? guess
+               : sqrt_iter(improve(guess));
+    }
+    return sqrt_iter(1);
+}
