@@ -29,6 +29,11 @@
 ; (display (sqrt 9))
 ; (exit)
 
+#|
+1. 隐藏了函数名，free variable
+2. 这些过程不再被外部使用，不再需要外部可复用的设计
+3. x 不需要传递的方式进入这些过程
+|#
 (define (sqrt-by-block x)
   (define (good-enough? guess)
     (< (abs (- (square guess) x)) 0.001))
