@@ -24,8 +24,9 @@
 
 (* dx (sum f (+ a (/ dx 2.0)) add-dx b)))
 
-
+#|
 (display (sum-cube 1 4))
 (newline)
 (display (integral cube 0 1 0.01))
 (exit)
+|#
