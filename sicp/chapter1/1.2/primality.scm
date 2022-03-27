@@ -18,7 +18,9 @@
 
 ;最小素数等于自身
 (define (prime? n)
-  (= (smallest-divisor n) n))
+  (if (= n 1)
+    #f
+    (= (smallest-divisor n) n)))
 
 
 ;----------------------------------------
