@@ -13,3 +13,6 @@
         result
         (iter (next a) (combiner result (term a)))))
   (iter a null-value))
+
+(define (name parameters)
+  )

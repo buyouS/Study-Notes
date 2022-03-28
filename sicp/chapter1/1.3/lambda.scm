@@ -1,7 +1,7 @@
-(define plus4 ((lambda (x) (+ x 4))))
+;(define plus4 ((lambda (x) (+ x 4))))
 
 
-((lambda (x) (+ x 4)) 4)
+;((lambda (x) (+ x 4)) 4)
 
 (define (f x y)
   (define (f-helper a b)
@@ -28,6 +28,5 @@
        (* y b)
        (* a b))))
 
-(define (g x)
-  (let ()
-     ()))
+
+
