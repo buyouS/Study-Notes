@@ -1,0 +1,57 @@
+{
+  "_from": "sicp",
+  "_id": "sicp@1.0.29",
+  "_inBundle": false,
+  "_integrity": "sha512-Pkcl95uBrKHuzcja5sgCKEAw3+9/C/lEHR2Zv8dQV0j/mEYF0nd7M97nEhGKcVr6usTvDquJK/wsxhhteYQAiA==",
+  "_location": "/sicp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "sicp",
+    "name": "sicp",
+    "escapedName": "sicp",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/sicp/-/sicp-1.0.29.tgz",
+  "_shasum": "09d745f8da1d07533a2b2be56a979e4f0ca2247c",
+  "_spec": "sicp",
+  "_where": "D:\\code\\git test\\Study-Notes\\sicpJS",
+  "author": {
+    "name": "Source Academy",
+    "url": "https://github.com/source-academy/"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/estree": "0.0.47",
+    "acorn": "^8.0.3",
+    "acorn-loose": "^8.0.0",
+    "acorn-walk": "^8.0.0",
+    "astring": "^1.4.3",
+    "gpu.js": "^2.10.4",
+    "lodash": "^4.17.20",
+    "xmlhttprequest-ts": "^1.0.1"
+  },
+  "deprecated": false,
+  "description": "module to run programs of SICP JS in node.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "JavaScript",
+    "textbook",
+    "Structure and Interpretation of Computer Programs",
+    "SICP"
+  ],
+  "license": "Apache-2.0",
+  "main": "dist/sicp",
+  "name": "sicp",
+  "types": "dist/sicp",
+  "version": "1.0.29"
+}

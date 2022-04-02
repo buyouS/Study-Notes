@@ -1,7 +1,7 @@
 
-pair = require("../pair.js").pair;
-head = require("../pair.js").head;
-tail = require("../pair.js").tail;
+pair = require("../../pair.js").pair;
+head = require("../../pair.js").head;
+tail = require("../../pair.js").tail;
 
 function make_rat(n, d) { return pair(n, d); }
 

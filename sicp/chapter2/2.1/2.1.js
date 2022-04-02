@@ -1,6 +1,6 @@
-pair = require("../pair.js").pair;
-head = require("../pair.js").head;
-tail = require("../pair.js").tail;
+pair = require("../../pair.js").pair;
+head = require("../../pair.js").head;
+tail = require("../../pair.js").tail;
 
 function gcd(a, b) {
     return b === 0 ? a : gcd(b, a % b);
